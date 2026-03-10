@@ -1,0 +1,36 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+    
+    function isEmailVerified() {
+      return request.auth.token.email_verified == true;
+    }
+    
+    function isAdmin() {
+      return isSignedIn() && request.auth.token.email == 'weakfrick1@gmail.com';
+    }
+
+    // Article images
+    match /article-images/{allPaths=**} {
+      // Anyone can view article images (Public)
+      allow read: if true;
+      
+      // Only verified admins can upload or delete article images
+      allow write: if isAdmin() && isEmailVerified();
+    }
+    
+    // User avatars
+    match /avatars/{userId}/{allPaths=**} {
+      // Anyone can view avatars
+      allow read: if true;
+      
+      // Users can only upload their own avatar if verified
+      allow write: if isSignedIn() && request.auth.uid == userId && isEmailVerified();
+    }
+  }
+}

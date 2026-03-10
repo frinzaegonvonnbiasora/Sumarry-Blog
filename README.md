@@ -45,7 +45,7 @@ The Blog Assistant is a chatbot that helps users write posts, navigate the websi
 
 
 
-1232131233
+123213123
 
 <img width="227" height="657" alt="image" src="https://github.com/user-attachments/assets/3774ea4f-dc32-4c9c-ad6f-d24e7617156d" />
 

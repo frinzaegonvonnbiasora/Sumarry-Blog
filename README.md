@@ -35,7 +35,7 @@ Prerequisites: Node.js
 
 
 
-<img width="1063" height="237" alt="image" src="https://github.com/user-attachments/assets/07c2b11d-8d8d-47b2-8fe4-9e3400888821" />
+
 
 
 

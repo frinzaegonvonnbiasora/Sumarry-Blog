@@ -31,13 +31,14 @@ Prerequisites: Node.js
 
 
 
-23213123
+The Logout button is used to sign the user out of the website or system.
 
 <img width="133" height="119" alt="image" src="https://github.com/user-attachments/assets/1c56c6a0-51b6-448f-8a75-ece7260adc9b" />
 
 
-123123123
 
+
+The Blog Assistant is a chatbot that helps users write posts, navigate the website, and answer questions while using the blogging platform.
 
 <img width="230" height="304" alt="image" src="https://github.com/user-attachments/assets/db8ad5e6-b9e1-4b43-94f8-ac243604aad8" />
 <img width="67" height="53" alt="image" src="https://github.com/user-attachments/assets/0771807a-0839-4696-a311-f9ad336686e6" />

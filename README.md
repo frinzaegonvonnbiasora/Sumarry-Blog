@@ -45,16 +45,62 @@ The Blog Assistant is a chatbot that helps users write posts, navigate the websi
 
 
 
-123213123
+Trending Topics: It helps users see what topics are popular in the blogging community.
+Top Contributors: It shows the most active or popular writers and allows users to follow them.
+SummaryBlog Plus:It advertises the paid version of the platform that provides extra features.
 
 <img width="227" height="657" alt="image" src="https://github.com/user-attachments/assets/3774ea4f-dc32-4c9c-ad6f-d24e7617156d" />
 
 
+Function of the Blog Post Cards
+1. Blog Cover Area
+At the top of each card is a cover image section labeled “SUMMARYBLOG.”
+Function:
+
+Acts as the featured image or thumbnail of the blog post.
+
+Makes the post more visually appealing.
+
+Helps readers quickly identify or attract attention to the article.
 
 
+2. Author Information
+Below the cover image is the author information section.
+Details shown:
+
+Author Name: CPE-01 BIASORA, Frinz Aegon Vonn
+
+Date Posted: 3/10/2026
+
+Reading Time: 2 MIN READ
+
+3. Blog Title
+Serves as the main heading of the article.
+Gives readers an idea of the topic of the blog p
+Examples:
+
+DAY 2: The Lean Architect
+
+Day 1: Scaling at the Speed of Thought
 
 
-123123123123213
+4. Blog Description / Preview
+Below the title is a short summary of the article content.
+Function:
+Provides a preview of the blog post.
+Helps readers decide whether they want to read the full article.
+
+5. Interaction Icons
+At the bottom of each blog card are interaction features.
+Heart Icon ❤️
+Function:
+Allows users to like the blog post.
+Comment Icon 💬
+Function:
+Allows users to view or add comments to the article.
+Share Icon 🔗
+Function:
+Allows users to share the blog post with others.
 
 <img width="1037" height="672" alt="image" src="https://github.com/user-attachments/assets/a0431921-6f7e-4246-9238-2f729c304df5" />
 
